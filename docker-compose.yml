@@ -1,0 +1,12 @@
+version: "3"
+services:
+  vue:
+    build: ./Docker
+    image: jest_img
+    container_name: jest_ctn
+    volumes:
+      - ./:/app
+    ports:
+      - "3000:3000"
+    working_dir: /app
+    command: npm run dev
