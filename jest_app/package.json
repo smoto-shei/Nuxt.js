@@ -16,7 +16,7 @@
     "@nuxtjs/axios": "^5.11.0",
     "@nuxtjs/dotenv": "^1.4.1",
     "eslint": "^7.3.0",
-    "nuxt": "^2.13.0",
+    "nuxt": "^3.4.3",
     "typescript": "^3.8.3"
   },
   "devDependencies": {
